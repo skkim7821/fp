@@ -1,0 +1,28 @@
+{
+  "name": "fp",
+  "version": "0.0.0",
+  "authors": [
+    "skkim7821 <skkim7821@gmail.com>"
+  ],
+  "description": "functional programming",
+  "main": "index.html",
+  "keywords": [
+    "functional",
+    "programming",
+    "fp"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "lodash": "~3.10.0",
+    "jquery-ui": "~1.11.4",
+    "angularjs": "~1.4.2"
+  }
+}

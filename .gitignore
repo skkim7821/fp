@@ -1,0 +1,12 @@
+# Dependency directory
+node_modules
+
+
+# bower directory
+public/js/lib
+
+# Grunt or gulp
+
+# logs
+
+# runtime data
