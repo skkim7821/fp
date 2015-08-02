@@ -306,13 +306,11 @@ function condition1(/* validators */) {
 	};
 }
 
-function complement(pred) { 
-	return function() {
-		return !pred.apply(null, _.toArray(arguments)); 
-	};
-}
-
 var zero = validator("cannot be zero", function(n) { return 0 === n }); 
 var number = validator("arg must be a number", _.isNumber);
 
 function uncheckedSqr(n) { return n * n };
+
+function test(msg) {
+	console.log(msg);
+}
