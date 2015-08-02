@@ -695,3 +695,34 @@ function LazyChainChainChain(obj) {
 }
 
 // 195
+
+
+function go() {
+	var d = $.Deferred();
+	
+	$.when("")
+		.then(function() {
+			setTimeout(function() { 
+				console.log("sub-task 1");
+			}, 5000) 
+		})
+		.then(function() { 
+			setTimeout(function() {
+      	console.log("sub-task 2");
+      }, 10000)
+		}) 
+		.then(function() {
+			setTimeout(function() { 
+				d.resolve("done done done done");
+			}, 15000) 
+		})
+		
+	return d.promise(); 
+}
+
+function pipeline(seed /*, args */) { 
+	return _.reduce(_.rest(arguments),
+										function(l,r) { return r(l); }, 
+										seed);
+};
+
