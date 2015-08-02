@@ -311,20 +311,3 @@ var number = validator("arg must be a number", _.isNumber);
 
 function uncheckedSqr(n) { return n * n };
 
-function test(msg) {
-	console.log(msg);
-}
-
-function test2(msg) {
-  console.log(msg);
-}
-
-function test3(msg) {
-  console.log(msg);
-}
-
-function test4(msg) {
-	console.log(msg);
-}
-
-
