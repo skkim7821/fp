@@ -314,3 +314,8 @@ function uncheckedSqr(n) { return n * n };
 function test(msg) {
 	console.log(msg);
 }
+
+function test2(msg) {
+  console.log(msg);
+}
+
