@@ -319,3 +319,6 @@ function test2(msg) {
   console.log(msg);
 }
 
+function test3(msg) {
+  console.log(msg);
+}
