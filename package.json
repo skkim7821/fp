@@ -4,6 +4,8 @@
   "description": "functional programming ",
   "main": "index.js",
   "scripts": {
+		"prestart": "npm i && bower i",
+		"start": "node ./app",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "skkim",
